@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.hst.security'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.hst.security'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
